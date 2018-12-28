@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cross browser]">
+  <test name="firefox test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="selectBrowser"/>
+          <include name="saveReport"/>
+          <include name="beforemethod"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </classes>
+  </test> <!-- firefox test(failed) -->
+  <test name="chrome test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="selectBrowser"/>
+          <include name="saveReport"/>
+          <include name="beforemethod"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+</suite> <!-- Failed suite [cross browser] -->

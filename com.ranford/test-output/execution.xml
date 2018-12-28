@@ -1,0 +1,16 @@
+<suite name="cross browser">
+<test name="firefox test">
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="com.pagelibrary.com.ranford.TestExecution"/>
+</classes>
+<Methods 
+
+</test>
+<test name="chrome test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.pagelibrary.com.ranford.TestExecution"/>
+</classes>
+</test>
+</suite>
